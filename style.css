@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0, 0, 0, 0;
+    padding: 0;
+}
+.navbar-brad img{
+width: 200px;
+}
+
+/* header */
+.header {
+    background-color: rgb(112, 25, 25);
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+.navigation-bar {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.navigation-bar li {
+    padding: 20px;
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation-bar li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.navigation-bar li:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+/* Main */
+
+.main-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-container img {
+    width: 100%;
+    height: 800px
+}
+
+.main-overlay {
+    position: absolute;
+    margin-top: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 530px;
+    min-height: 400px;
+}
+
+.main-overlay-text-container {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    overflow: auto;
+}
+
+.main-food-container h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+}
+
+.main-food-container img {
+    width: 320px;
+    height: 320px;
+    border-radius: 50px;
+}
+
+.main-food-container-example img{
+    transition: transform 0.3s ease-in-out;
+}
+
+.main-food-container-example:hover img{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.main-info-left-side {
+    margin: 20px;
+    text-align: center;
+}
+
+.main-info-left-side img {
+    width: 900px;
+    height: 420px;
+    border-radius: 10px;
+    border: 2px solid rgb(112, 25, 25);
+}
+
+@media screen and (max-width: 1500px) {
+    .main-info-left-side img {
+        width: 400px;
+        height: 420px;
+    }
+}
+
+.main-info-right-side {
+    padding: 5px;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Footer */
+
+.footer{
+    padding: 50px;
+    background-color: rgb(112, 25, 25);
+    color: white;
+}
